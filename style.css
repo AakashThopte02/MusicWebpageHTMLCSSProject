@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --max-width: 1100px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1.2em;
+  scroll-behavior: smooth;
+}
+header {
+  background: rgb(55, 12, 104);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.logo {
+  font-size: 32px;
+}
+.upper_list {
+  display: flex;
+  gap: 20px;
+}
+.upper_list li {
+  list-style: none;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s ease-in;
+}
+ul li:hover {
+  border-bottom: 2px solid #fff;
+  transition: 0.3s ease-in;
+}
+a {
+  text-decoration: none;
+}
+.overview_section {
+  background: url(https://raw.githubusercontent.com/anshuopinion/10-Practice-Project-Html-CSS/Project-6-Music-Website/Project%206/images/hero_image.png)
+    no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 90vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+}
+.overview_content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.overview_content h1 {
+  font-size: 75px;
+}
+.overview_content h3 {
+  font-size: 35px;
+}
+.music_section {
+  background: rgb(30, 12, 109);
+}
+i {
+  color: yellow;
+}
+.music_container {
+  padding: 50px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  row-gap: 30px;
+  place-items: center;
+  color: #fff;
+  text-align: center;
+}
+.ipad_image img {
+  height: 350px;
+  width: 600px;
+  border-radius: 20px;
+  margin-top: -200px;
+}
+.ipad_image {
+  position: relative;
+  top: 200px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  transition: 0.3s ease-out;
+  border-radius: 5px;
+  color: yellow;
+  text-shadow: -1px 0 black, 1px 0 black, 0 1px black, 0 -1px black;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.about_music {
+  margin-top: 250px;
+}
+.about_music_section {
+  max-width: var(--max-width);
+  display: grid;
+  place-items: center;
+  gap: 40px;
+  text-align: center;
+  margin: 0 auto;
+}
+.mac_image img {
+  width: 600px;
+  height: 350px;
+}
+h4 p {
+  font-weight: 200;
+}
+.videos_section {
+  margin-top: 50px;
+  background: url(https://raw.githubusercontent.com/anshuopinion/10-Practice-Project-Html-CSS/Project-6-Music-Website/Project%206/images/hero_image.png)
+    no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.videos_sec {
+  max-width: var(--max-width);
+  display: grid;
+  place-items: center;
+  gap: 50px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+.gift_card_section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.card_section {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+}
+.gift_image img {
+  width: 250px;
+}
+.gift_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.gift_content button {
+  align-items: flex-start;
+}
+.footer_section {
+  background: purple;
+  padding: 50px;
+}
+.footer_div {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  color: #fff;
+}
+ul li {
+  list-style: none;
+  font-weight: 200;
+}
+a {
+  color: #fff;
+}
+.footer_one {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer {
+  text-align: center;
+  background: rgb(183, 4, 183);
+  padding: 10px;
+}
